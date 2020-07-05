@@ -2,6 +2,8 @@ body {
     margin: 0;
     margin-top: 100px;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    box-sizing: border-box;
 }
 
 #header {
@@ -283,4 +285,123 @@ body {
     right: 50px;
     bottom: 10px;
     width: 100px;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #header {
+        padding: 4px 12px;
+        box-sizing: border-box;
+        height: fit-content;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #left-menu, #search-box {
+        display: none;
+    }
+
+    #right-menu {
+        margin-left: auto;
+    }
+
+    #cart {
+        font-size: 14px;
+    }
+
+    #cart-items {
+        width: 10px;
+        height: 10px;
+    }
+
+    #cart-items-count {
+        font-size: 12px;
+        /* transform: translateY(-1px); */
+    }
+
+    #user-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .autoplay {
+        padding: 0;
+        height: 150px;
+    }
+
+    .slick-dots {
+        margin-top: 10px;
+        height: 20px;
+    }
+
+    .slick-dots > li {
+        font-size: 18px;
+    }
+
+    #main-section {
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section-headings {
+        font-size: 24px;
+    }
+
+    #product-container-clothing, #product-container-accessories {
+        flex-wrap: wrap;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .product-details {
+        width: 45%;
+        box-sizing: border-box;
+    }
+
+    .about-product {
+        padding: 0 6px;
+    }
+
+    .product-desc {
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .product-brand {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .product-price {
+        font-size: 24px 12px;
+    }
+
+    #footer {
+        box-sizing: border-box;
+        height: 250px;
+        padding: 12px;
+    }
+
+    .footer-containers {
+        height: max-content;
+        padding: 0 4px;
+        box-sizing: border-box;
+    }
+
+    .footer-more-headings {
+        font-size: 8px;
+    }
+
+    .footer-links {
+        font-size: 8px;
+    }
 }

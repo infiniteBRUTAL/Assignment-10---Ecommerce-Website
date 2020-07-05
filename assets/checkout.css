@@ -114,3 +114,58 @@ body {
     color: #009688;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+
+    #main-container {
+        flex-direction: column;
+    }
+
+    #left, #right {
+        width: 100%;
+    }
+
+    #left {
+        padding: 6px;
+    }
+
+    .checkout-product-container {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .checkout-product-name {
+        font-size: 12px;
+    }
+
+    .checkout-product-quantity {
+        font-size: 10px;
+    }
+
+    .checkout-product-total {
+        font-size: 14px;
+    }
+
+    #right {
+        padding: 6px;
+    }
+
+    #total-amount-container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    #total-amount-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #total-amount {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+
+    #place-order {
+        margin: 4px auto;
+    }
+}
