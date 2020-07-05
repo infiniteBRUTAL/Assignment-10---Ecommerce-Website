@@ -5,6 +5,9 @@ $(document).ready(() => {
 
     $('#cart-items-count').text(() => {
         let items = JSON.parse(localStorage.getItem('cart-items'))
+        if(items === null) {
+            return 0
+        }
         return items.length
     })
 
