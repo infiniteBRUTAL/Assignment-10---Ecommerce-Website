@@ -332,7 +332,7 @@ body {
     }
 
     .autoplay {
-        padding: 0;
+        padding: 0 4px;
         height: 150px;
     }
 
@@ -386,15 +386,18 @@ body {
     }
 
     #footer {
-        box-sizing: border-box;
-        height: 250px;
+        height: 410px;
         padding: 12px;
+        display: block;
+        width: 100vw;
+        box-sizing: border-box;
     }
 
     .footer-containers {
-        height: max-content;
-        padding: 0 4px;
+        height: fit-content;
+        padding: 4px 8px;
         box-sizing: border-box;
+        width: fit-content;
     }
 
     .footer-more-headings {
@@ -403,5 +406,18 @@ body {
 
     .footer-links {
         font-size: 8px;
+        margin: 0;
+    }
+
+    #floater {
+        right: 20px;
+        bottom: 50px;
     }
 }
+
+
+
+
+
+
+
