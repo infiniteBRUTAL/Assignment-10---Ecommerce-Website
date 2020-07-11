@@ -304,8 +304,16 @@ body {
         left: 0;
     }
 
-    #left-menu, #search-box {
+    #search-box {
         display: none;
+    }
+
+    #logo {
+        font-size: 24px;
+    }
+
+    #menu-clothing, #menu-accessories {
+        display: none !important;
     }
 
     #right-menu {
