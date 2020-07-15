@@ -331,11 +331,9 @@ body {
 
     #cart-items-count {
         font-size: 12px;
-        /* transform: translateY(-1px); */
     }
 
     #user-icon {
-        width: 36px;
         height: 36px;
     }
 
